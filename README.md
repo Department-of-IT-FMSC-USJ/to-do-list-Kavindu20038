@@ -10,7 +10,7 @@ namespace ConsoleApp
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to your To-Do Application!");
+            Console.WriteLine("Welcome for To-Do App");
             DisplayMenu();
         }
 
@@ -25,8 +25,8 @@ namespace ConsoleApp
                 Console.WriteLine("4. View To-Do Tasks");
                 Console.WriteLine("5. View In Progress Tasks");
                 Console.WriteLine("6. View Completed Tasks");
-                Console.WriteLine("7. Exit");
-                Console.Write("Enter your choice: ");
+                Console.WriteLine("7. Exiting");
+                Console.Write("Enter  choice: ");
 
                 string choice = Console.ReadLine();
 
@@ -54,7 +54,7 @@ namespace ConsoleApp
                         DisplayTasks(completedTasks);
                         break;
                     case "7":
-                        Console.WriteLine("Exiting application. Goodbye!");
+                        Console.WriteLine("Exiting application");
                         return;
                     default:
                         Console.WriteLine("Invalid choice. Please try again.");
