@@ -19,12 +19,13 @@ namespace todolist_original
 
             while (true)
             {
-                Console.WriteLine(">>>>>>>>>>>Welcome to Todo list Application menu>>>>>>>>>>>>>>>>>");
+                Console.WriteLine(">>>>>>>>>>>Welcome to Todo list Application Main menu>>>>>>>>>>>>>>>>>");
                 Console.WriteLine("press 1 to insert tasks: ");
                 Console.WriteLine("press 2 to view all tasks: ");
                 Console.WriteLine("press 3 to move tasks to in progress:  ");
                 Console.WriteLine("press 4 to move tasks in to completed: ");
                 Console.WriteLine("press 5 to exit: ");
+
 
 
                 Console.WriteLine("Enter your selection: ");
@@ -90,6 +91,10 @@ namespace todolist_original
                     case "5":
                         Console.WriteLine("Exiting!! Todo list application!");
                         return;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid option!!");
                         break;
  
 
